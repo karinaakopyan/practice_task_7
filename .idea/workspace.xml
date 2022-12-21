@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="375b15cc-b81c-445b-97e6-574dec090f6e" name="Changes" comment="added medals counter" />
+    <list default="true" id="375b15cc-b81c-445b-97e6-574dec090f6e" name="Changes" comment="Merge remote-tracking branch 'origin/new_def' into new_def" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="country_create" />
+        <entry key="$PROJECT_DIR$" value="medal_counter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +88,28 @@
       <option name="project" value="LOCAL" />
       <updated>1671609405229</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added medals def">
+      <created>1671609713157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671609713157</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added medals def">
+      <created>1671609730569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671609730569</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/new_def' into new_def">
+      <created>1671609856135</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671609856135</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +123,38 @@
                   <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/medal_counter" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/medal_counter" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -112,6 +167,8 @@
     <MESSAGE value="added def create_country" />
     <MESSAGE value="added next" />
     <MESSAGE value="added medals counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added medals counter" />
+    <MESSAGE value="added medals def" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/new_def' into new_def" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/new_def' into new_def" />
   </component>
 </project>
