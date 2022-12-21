@@ -37,3 +37,22 @@ def create_medals ():
             elif i[-1]=="Bronze":
                 bronze +=1
     return bronze, silver, gold
+
+
+def medals():
+    medal = ""
+    counter = 0
+    country = create_country()
+    BSG = create_medals()
+    for i in country:
+        if counter == 10:
+            break
+        if i[-1] == "NA":
+            continue
+        else:
+            print (f"Name: {i[1]}, sport: {i[-2]}, medal: {i[-1]} ")
+            counter += 1
+            medal+=f"Name: {i[1]}, sport: {i[-2]}, medal: {i[-1]} \n "
+    print(f"The number of medals in is: bronze - {BSG[0]}, silver - {BSG[1]}, gold - {BSG[2]} ")
+    medal+=f"The number of medals in is: bronze - {BSG[0]}, silver - {BSG[1]}, gold - {BSG[2]} \n "
+    return medal
