@@ -8,3 +8,8 @@ def create():
         for row in reader:
             the_list.append(row.strip().split(","))
     return the_list
+
+
+def create_country():
+    country = []
+    year = []
