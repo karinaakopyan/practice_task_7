@@ -13,3 +13,9 @@ def create():
 def create_country():
     country = []
     year = []
+
+    the_list = create()
+
+    for i in the_list:
+        if i[6]==sys.argv[4]:
+            year.append(i[9])
