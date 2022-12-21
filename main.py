@@ -56,3 +56,15 @@ def medals():
     print(f"The number of medals in is: bronze - {BSG[0]}, silver - {BSG[1]}, gold - {BSG[2]} ")
     medal+=f"The number of medals in is: bronze - {BSG[0]}, silver - {BSG[1]}, gold - {BSG[2]} \n "
     return medal
+
+
+def output ():
+    try:
+        text = medals()
+        a = sys.argv[6]
+        with open (sys.argv[7], "a") as f:
+            f.write (text)
+
+    except:
+        medals()
+output()
